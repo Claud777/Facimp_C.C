@@ -1,0 +1,25 @@
+#ADS #pratrica
+
+As quatro camadas de segurança.
+Com base em estudos realizados durante o desenvolvimento deste trabalho, o autor desta monografia definiu quatro camadas de segurança, que são: 
+- controle de acesso ao sistema; 
+- segurança interna do sistema; 
+- monitoramento do sistema; 
+- recuperação e disponibilidade do sistema.
+A escolha destas quatro camadas foi baseada nas técnicas e tecnologias hoje empregadas para prover segurança, e nas ações mais comuns que um atacante executa ao tentar invadir um sistema.
+
+**Controle de acesso ao sistema:** essa camada de baseia no fato de que um atacante precisa monitorar o trafego da rede ou do sistema para obter informações sobre seu funcionamento, para isso, primeiro o atacante precisa obter acesso ao sistema/rede, seja com engenharia social, furto de senhas, sniffers, entre outros.
+Ao obter acesso ao sistema, o atacante pode explorar vulnerabilidades nas configurações internas do mesmo, isto é, procurar brechas que o permitam realizar o próximo passo de sua invasão, que é a alteração, exclusão ou furto de arquivos do sistema, em casos mais graves já foram realizadas formatações completas do sistema.
+
+**recuperação e disponibilidade do sistema:** aproveitando o gancho, em casos de ataques bem sucedidos onde o atacante consegue furtar, alterar, excluir ou formatar o sistema, se faz necessário um plano de recuperação para a manutenção da disponibilidade do sistema, note que a disponibilidade é um fator que consta nos três pilares da segurança da informação. Planos de backup, métodos seguros de armazenamento de backup e até mesmo períodos de backup são itens a serem verificados nessa camada da segurança.
+
+**monitoramento do sistema:** a camada de monitoramento do sistema se trata da constante verificação do desempenho do sistema, bem como de seus serviços, desempenho, e integridade, a fim de proporcionar a prevenção de ataques além da implementação de atualizações quando necessárias, isto também torna mais fácil a utilização dos backup do sistema, uma vez que o monitoramento de seu status e desempenho podem ajudar a identificar o que foi perdido.
+
+**Segurança interna:** a camada de segurança interna e a camada de controle de acesso interagem entre si, de modo a complementarem o seu funcionamento, o controle de acesso dos funcionários ao sistema e rede pode ser visto como uma segurança interna, o controle de funcionamento dos hosts internos da empresa e de suas dependências também, a má configuração de um serviço e a falta de instrução dos usuários que estão utilizando o mesmo podem gerar brechas permitindo o acesso de hackers no mesmo outro item que pode ser avaliado como incluso na segurança interna é o controle da implementação de atualizações do sistema, tanto para mais quanto para menos, atualizações devem ser feitas com cautela para que não afete o funcionamento do servidor.
+
+Cada camada tem uma função e objetivo. A camada de controle de acesso ao sistema trata das interações dos usuários, dispositivos ou aplicativos durante o acesso ao sistema. Para aumentar a segurança de um sistema, apenas os usuários autenticados, devem ter acesso somente às portas e protocolos autorizados em um determinado servidor. A segunda camada trata da segurança interna do sistema. Um sistema torna-se mais seguro quando os seus componentes são atualizados e configurados corretamente conforme documentação oficial do desenvolvedor. Apenas os componentes realmente necessários devem ser adicionados ao sistema. Outro ponto importante é definir permissões restritivas no sistema de arquivos e usar criptografia para proteger arquivos ou diretórios, ou para proteger as comunicações de rede. A camada monitoramento do sistema, trata das técnicas e tecnologias utilizadas para monitorar os componentes do sistema. O monitoramento do sistema pode ser realizado através do monitoramento de registro de eventos, ferramentas específicas de monitoramento e verificação de integridade, ou scripts. O monitoramento do sistema permite que sejam monitorados os componentes de hardware e software do computador. Em um sistema medianamente seguro, uma invasão irá exigir esforço e tempo, de forma que, com um monitoramento eficiente, a invasão pode ser bloqueada em seu início. A camada de recuperação e disponibilidade do sistema, trata das técnicas e tecnologias utilizadas para garantir a recuperação do sistemas e dos dados após um desastre, e para aumentar a disponibilidade do sistema. Um procedimento de contingência bastante utilizado para recuperação é a realização de backups.
+Entre as tecnologias empregadas para aumentar a disponibilidade de um sistema, estão, a utilização de clusters, storages e RAID de discos
+
+- Red Hat: A Red Hat é uma empresa de software reconhecida e popular no mundo da cyber segurança nesse artigo eles disponibilizam boas praticas e ações que auxiliam na melhoria da segurança de um servidor [...]
+	[Documentação Red Hat](https://docs.redhat.com/pt/documentation/red_hat_enterprise_linux/6/html/security_guide/index#idm140084973585824)
+	
