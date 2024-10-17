@@ -27,7 +27,7 @@ Para a execução desta tarefa foram designados cinco integrantes em um grupo:
 O servidor deve ser o mais leve possível, utilizando apenas os serviços essenciais, quanto mais serviços forem implementados dentro do servidor, mais pesada será a maquina virtual, oque prejudicaria o desempenho.
 
 São as ideias de serviços a serem implementados:
-1. [[Zabixx.integer]]
+1. [[Zabbix.integer]]
 2. [[Proxmox.Integer]]
 3. [[Fail2ban.integer]]
 4. [[Docker.integer]]

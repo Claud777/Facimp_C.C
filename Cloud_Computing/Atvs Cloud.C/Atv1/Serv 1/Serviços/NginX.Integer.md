@@ -31,3 +31,7 @@ Pesquisa:
 	1. Ferramentas de proteção e configurações á serem ativadas dentro do NginX
 6. Threat Hunter da implementação e uso do NginX
 	1. Caça aos possiveis erros e dificuldades que podem surgir durante o processo de instalação e uso do NginX
+
+O NginX pode se comunicar com o Apache para executar um controle de acesso a sites estáticos e dinâmicos, funcionando como um semelhante ao firewall mas ainda sendo um proxy-reverso
+
+"O NginX exercendo sua função de proxy reverso requisita o IP do firewall onde está hospedado o host para disponibilizar o site, cabe ao firewall disponibilizar ou não o IP, caso seja fornecido, o IP e a localização do firewall onde o mesmo está hospedado será armazenado no Proxy reverso, caso não, apenas o local será armazenado e cabe ao firewall reter e se responsabilizar pelas informações acessadas pelo host."

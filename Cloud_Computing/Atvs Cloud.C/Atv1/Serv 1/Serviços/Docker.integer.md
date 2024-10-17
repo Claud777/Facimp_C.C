@@ -23,3 +23,8 @@ Pesquisa:
 	1. Previa organização das pastas armazenadas dentro do Docker
 6. Threat Hunter da implementação e uso do Docker
 	1. Caça aos possiveis erros e dificuldades que podem surgir durante o uso
+
+
+### Resultado da Pesquisa: 
+
+[[Relatório referente a implementação do Docker em Debian Linux.pdf]]João Lucas

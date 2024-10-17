@@ -34,3 +34,7 @@ Pesquisa:
 	1. Pesquisa aprofundada sobre as integrações de serviços do Proxmox sejam estes adicionados pela equipe ou pré-existentes
 8. Threat Hunter da implementação e uso do Proxmox
 	1. Caça aos possíveis erros e dificuldades que podem surgir durante o processo de instalação e uso do Proxmox
+
+### Resultado da Pesquisa:
+
+[[Máquina virtual - VirtualBox]]Luís <?> Cordeiro
